@@ -1,7 +1,7 @@
 # facedetector-api
 Face Detection Application Back-End
 
-*Face Detection Application detect if an image contains human faces and coordinate locations of where those face appear with a bounding box, recognize faces from any angle with landmarks and alignment*
+Face Detection Application *detect if an image contains human faces and coordinate locations of where those face appear with a bounding box, recognize faces from any angle with landmarks and alignment*
 
 Front-End code is at https://github.com/skategaru/facedetector.git
 
@@ -9,7 +9,7 @@ Front-End code is at https://github.com/skategaru/facedetector.git
 **Front-End:** http://localhost:3000/ <br />
 **Back-End:** http://localhost:3100/ <br />
 
-**Database Schema**
+**Database Schema** <br />
 create table users (<br />
 	id serial primary key,<br />
 	name varchar(100),<br />
